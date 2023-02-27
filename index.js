@@ -2,7 +2,11 @@ const mysql = require('mysql');
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
+<<<<<<< HEAD
 const port = 80;
+=======
+const port = 3000;
+>>>>>>> 3fa7af3de68cb4765b05472ea7a7689e0b9adceb
 
 var con = mysql.createConnection({
   host: "store.cxxd91dbn81t.us-east-1.rds.amazonaws.com",
