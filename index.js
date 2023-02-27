@@ -21,7 +21,7 @@ con.connect(function(err) {
   con.query(sql, function (err, result) {
     if (err) throw err;
     data = result;
-    console.log(result);
+    // console.log(result);
   });
 });
 
@@ -49,7 +49,7 @@ app.post("/api/pay", (req, res) => {
   res.send(products);
 });
 
-app.use("/", express.static("fe"));
+app.use("/", express.static("src"));
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
