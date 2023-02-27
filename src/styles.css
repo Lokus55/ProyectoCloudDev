@@ -47,12 +47,12 @@ button {
     margin: 10px;
     padding: 2px 16px;
     position: relative;
-    box-shadow: 0 4px 4px 4px rgba(0, 225, 255, 0.747);
+    box-shadow: 0 4px 4px 4px rgb(0, 225, 255);
     background-color: white;
 }
 
 .product-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(174, 0, 255, 0.993);
   }
 
 .product-container img {
